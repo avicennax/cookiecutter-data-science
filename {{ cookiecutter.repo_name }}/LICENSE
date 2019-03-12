@@ -1,3 +1,6 @@
+LICENSE
+=======
+
 {% if cookiecutter.open_source_license == 'MIT' %}
 The MIT License (MIT)
 Copyright (c) {% now 'utc', '%Y' %}, {{ cookiecutter.author_name }}
