@@ -20,6 +20,10 @@ endif
 # COMMANDS                                                                      #
 #################################################################################
 
+## Install core package
+install: requirements
+	pip install -e .
+
 ## Install Python Dependencies
 requirements: test_environment
 	pip install -U pip setuptools wheel
