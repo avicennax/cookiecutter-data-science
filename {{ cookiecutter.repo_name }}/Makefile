@@ -76,6 +76,10 @@ endif
 test_environment:
 	$(PYTHON_INTERPRETER) test_environment.py
 
+nb_docs:
+	${PROJECT_DIR}/src/utils/nbconvert_docs.sh ${PROJECT_DIR}
+
+
 #################################################################################
 # PROJECT RULES                                                                 #
 #################################################################################
